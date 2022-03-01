@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CuanCoding</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <!-- my font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@500;600;700&family=Viga&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- navbar-->
+    <header>
+        <div class="logo">Cuan<span>Coding</span></div>
+        <nav>
+            <ul id="nav-mobile" class="isi-logo">
+                <li>
+                    <a id="" href="#beranda">Beranda</a>
+                </li>
+                <li>
+                    <a href="#tentang" onclick="return smoothScroll('tentang')">Tentang Kami</a>
+                </li>
+                <li><a href="#kelas" onclick="return smoothScroll('kelas')">Kelas</a></li>
+                <li><a href="#mentor" onclick="return smoothScroll('mentor')">Mentor</a></li>
+                <button class="btn-kontak" href="#kontak" onclick="return smoothScroll('kontak')">Kontak</button>
+            </ul>
+        </nav>
+    </header>
+    <!-- end navbar-->
+
+    <!-- beranda-->
+    <main>
+        <article id="beranda" class="beranda">
+            <table border="0 ">
+                <tr>
+                    <td>
+                        <div class="kiri-header">
+                            <h3>
+                                Welcome to <span class="span1">CuanCoding.</span> <br /> Develop
+                                <span class="span2">anything.</span>
+                            </h3>
+                            <p>CuanCoding adalah komunitas bergerak di bidang IT, <br />dan sharing ilmu programming.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="/Aset/header.svg " alt=" " />
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <!-- end beranda-->
+        <!-- tentang kami -->
+        <article id="tentang" class="tentang-kami">
+            <div class="judul-tentang">
+                <h3>Tentang Kami</h3>
+            </div>
+            <table border="0 " class="isi-tentang">
+                <tr>
+                    <td>
+                        <img class="kiri-tentang" src="/Aset/tentang.jpg " alt=" " />
+                    </td>
+                    <td>
+                        <p class="konten-tentang">
+                            CuanCoding didirikan 1 januari 2022, yang mewadahi solusi dari IT baik dalam perkuliahan maupun dunia bisnis. <br /> Beberapa kelas yang mumpuni yaitu: Database, Desain Grapic, HTML/CSS, JavaScript, PHP, dan Python. bagi yang
+                            berminat segera daftar dibawah ini!!
+                        </p>
+                        <a href=" " class="tombol">Lihat Tentang Kami</a>
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <!-- end tentang kami -->
+        <!-- kelas -->
+        <article id="kelas">
+            <div class="judul-kelas">
+                <p>Kelas</p>
+            </div>
+            <div class="container-kelas">
+                <div class="cards">
+                    <div class="head">
+                        <h1>Database</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/database.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>08.00-10.00</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="head">
+                        <h1>Desain Grapic</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/desain.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>08.00-10.00</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="head">
+                        <h1>HTML/CSS</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/html.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>10.00-12.00</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="head">
+                        <h1>JavaScript</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/js.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>10.00-12.00</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="head">
+                        <h1>PHP</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/php.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>13.00-15.00</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="head">
+                        <h1>Python</h1>
+                    </div>
+                    <div class="body-kelas">
+                        <img src="/Aset/py.png " alt=" " />
+                    </div>
+                    <div class="foot">
+                        <p>13.00-15.00</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- end Kelas -->
+        <!-- mentor -->
+        <aside id="mentor" class="mentor">
+            <article>
+                <div class="judul-mentor">
+                    <p>Mentor</p>
+                </div>
+                <div class="container-mentor">
+                    <div class="cards-mentor">
+                        <div class="head-mentor">
+                            <img src="/Aset/citra.jpeg " alt=" " />
+                        </div>
+                        <div class="body-mentor">
+                            <h1>Citra Febriawirti</h1>
+                        </div>
+                        <div class="foot-mentor">
+                            <ul>
+                                <li>Desain Grapic</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cards-mentor">
+                        <div class="head-mentor">
+                            <img src="/Aset/kepin.jpeg " alt=" " />
+                        </div>
+                        <div class="body-mentor">
+                            <h1>Kelvin Mulyawan</h1>
+                        </div>
+                        <div class="foot-mentor">
+                            <ul>
+                                <li>Database</li>
+                                <li>HTML/CSS</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </aside>
+        <!-- end mentor -->
+        <!-- kontak -->
+        <article class="kontak" id="kontak">
+            <div class="container-kontak">
+                <h3>Kontak</h3>
+                <div class="container-kontak">
+                    <form class="form" action=" # " id="form">
+                        <div class="form-group form-title">
+                            <label for="title">Nama Lengkap</label>
+                            <input type="text" name="title" id="title" placeholder="nama lengkap..." required />
+                        </div>
+                        <div class="form-group form-title">
+                            <label for="date">Jenis Kelamin</label>
+                            <input type="text" name="Author" id="Author" placeholder="jenis kelamin..." required />
+                        </div>
+                        <div class="form-group form-title">
+                            <label for="date">Alamat</label>
+                            <input type="number" name="Years" id="Years" placeholder="alamat..." required />
+                        </div>
+                        <input type="submit" value="Kirim" id="submit" name="submit" class="btn-submit" />
+                    </form>
+                </div>
+            </div>
+        </article>
+        <!-- end kontak -->
+    </main>
+    <!-- footer -->
+    <footer class="Footer">
+        <p>Citra Febriawirti || 2022</p>
+    </footer>
+    <!-- end footer -->
+</body>
+<script src="/JS/script.js "></script>
+
+</html>
